@@ -1,0 +1,116 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    }
+   
+
+.tarjeta{
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 99, 99);
+    width: 780px;
+    height: 450px;
+    box-shadow: 5px 10px 15px #0011ff;
+    
+    }
+
+.descripcion{
+    color: aliceblue;
+
+}
+    
+.galeria{
+    background-color: green;
+    width: 500px;
+    height: 500px;   
+    justify-content: left;
+    align-items: left;     
+}
+.galeria_secundaria {
+padding: -10px;
+width: auto;
+
+margin-left: -90px;
+ 
+ 
+
+}
+
+.galeria_principal img{
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    filter: drop-shadow(16px 16px 20px rgb(255, 255, 255) blur(0.1px));
+
+
+
+    
+    
+}
+
+.galeria_principal img:hover{
+    
+    filter: drop-shadow(20px 20px 26px rgb(4, 0, 255)) saturate(200%) ;
+    
+
+} 
+
+.galeria_secundaria img{
+    border-radius: 20px;   
+    margin: 10px;
+    display:flex;
+    width: 90px;
+    
+    
+}
+
+.galeria_secundaria img:hover{
+     border-radius: 20px;   
+    margin: 10px;
+    display:flex;
+    width: 120px;
+    margin-left: -20px;
+    filter: drop-shadow(20px 20px 26px rgb(38, 0, 255)) saturate(200%);
+}
+
+.texto {
+    padding: -80px;
+    color: azure;
+    filter: drop-shadow(16px 16px 20px rgb(255, 255, 255) );
+
+}
+.texto h1:hover{
+  font-size: 50px;
+}
+
+.texto h3:hover{
+  font-size: 50px;
+}
+
+.texto p:hover{
+  font-size: 50px;
+}
+
+
+
+
+
+button {
+  padding: 10px 20px;
+    background-color: #273cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff3737;
+}
+button:active {
+  background-color: #3e8e41;
+
+}
