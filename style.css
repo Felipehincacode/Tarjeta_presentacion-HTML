@@ -84,15 +84,21 @@ margin-left: -90px;
 
 }
 .texto h1:hover{
-  font-size: 50px;
+  transform: scale(1.05);
+  background-color: #0011ff;
+  opacity: 0.5;
 }
 
 .texto h3:hover{
-  font-size: 50px;
+   transform: scale(1.05);
+  background-color: #0011ff;
+  opacity: 0.5;
 }
 
 .texto p:hover{
-  font-size: 50px;
+   transform: scale(1.05);
+  background-color: #0011ff;
+  opacity: 0.5;
 }
 
 
