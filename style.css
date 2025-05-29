@@ -111,17 +111,5 @@ margin-left: -90px;
 
 
 button {
-  padding: 10px 20px;
-    background-color: #273cff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #ff3737;
-}
-button:active {
-  background-color: #3e8e41;
-
-}
+  
+  
