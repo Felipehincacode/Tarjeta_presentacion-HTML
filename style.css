@@ -2,7 +2,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-      
+    font-family: fantasy; 
     }
    
 
@@ -54,9 +54,11 @@ margin-left: -90px;
 
 .galeria_principal img:hover{
     
-    filter: drop-shadow(20px 20px 20px rgb(255, 255, 255)) saturate(200%) ;
-    
-
+  filter: drop-shadow(20px 20px 20px rgb(255, 255, 255)) saturate(200%);
+  transform-style: preserve-3d;
+  transform: rotateX(2deg) rotateY(2deg) rotateZ(2deg);
+  perspective: 300px;
+  
 } 
 
 .galeria_secundaria img{
@@ -80,30 +82,29 @@ margin-left: -90px;
 .texto {
     padding: -80px;
     color: azure;
-    filter: drop-shadow(16px 16px 20px rgb(255, 255, 255) );
+    
 
 }
 .texto h1:hover{
-  transform: scale(1.05);
-  background-color: #0011ff;
+  transform: scale(1.2);
   color: black;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.texto h3:hover{
-   transform: scale(1.05);
-  background-color: #0011ff;
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.texto p:hover{
-   transform: scale(1.05);
-  background-color: #ffffff;
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
+  filter: drop-shadow(10px 10px 20px rgb(255, 255, 255));
   
 }
+
+.texto h3:hover{ 
+  color: black;
+  filter: drop-shadow(10px 10px 20px rgb(255, 255, 255));
+  transform: scale(1.2);
+}
+
+.texto p:hover{  
+  color: black;
+  filter: drop-shadow(10px 10px 20px rgb(255, 255, 255));
+  transform: scale(1.2);
+  
+}
+
 
 
 
